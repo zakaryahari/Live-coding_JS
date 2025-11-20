@@ -634,7 +634,21 @@ function getAllPassengerNames() {
 // CHALLENGE 15: Add a new booking with proper validation
 // RESTRICTION use Only for, while, and standard logic.
 function addNewBooking(bookingData) {
-  let;
+  let size_booking = spaceData['bookings'].length + 1;
+  let newobject = {
+    id: `BK00${size_booking}`,
+    userId: bookingData.userId,
+    destinationId: bookingData.destinationId,
+    package: bookingData.package,
+    passengers: bookingData.passengers,
+    travelDate: bookingData.travelDate,
+    returnDate: bookingData.returnDate,
+    totalPrice: bookingData.totalPrice,
+    status: bookingData.status,
+  };
+  spaceData['bookings'][size_booking] = newobject;
+
+  return spaceData['bookings'];
 }
 
 // ========================
