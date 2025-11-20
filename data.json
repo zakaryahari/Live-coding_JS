@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "name": "Mars Colony One", 
+      "name": "Mars Colony One",
       "type": "planet",
       "basePrice": 250000,
       "duration": 21,
@@ -95,7 +95,7 @@
           "seatPreference": "window"
         },
         {
-          "name": "Jane Smith", 
+          "name": "Jane Smith",
           "age": 32,
           "passport": "AB123457",
           "specialRequirements": "",
@@ -290,7 +290,7 @@
     },
     {
       "id": "user456",
-      "email": "alice.johnson@email.com", 
+      "email": "alice.johnson@email.com",
       "name": "Alice Johnson",
       "phone": "+0987654321",
       "membership": "basic",
@@ -339,7 +339,7 @@
     },
     {
       "id": "premium",
-      "name": "Premium Package", 
+      "name": "Premium Package",
       "multiplier": 1.5,
       "description": "Luxury suite with premium dining and exclusive access",
       "includes": ["Private suite", "Gourmet meals", "VIP training", "Exclusive tours"]
@@ -368,7 +368,7 @@
     },
     {
       "id": "photo_pack",
-      "name": "Professional Photo Pack", 
+      "name": "Professional Photo Pack",
       "price": 2500,
       "description": "Digital photos and videos of your experience"
     },
@@ -392,7 +392,7 @@
     },
     {
       "id": "extended_stay",
-      "name": "Extended Stay Option", 
+      "name": "Extended Stay Option",
       "price": 50000,
       "description": "Additional days at destination"
     }
@@ -406,7 +406,7 @@
       "validUntil": "2024-06-30"
     },
     {
-      "id": "promo2", 
+      "id": "promo2",
       "code": "FAMILY15",
       "description": "15% off for groups of 3 or more",
       "discount": 0.15,
@@ -416,7 +416,7 @@
       "id": "promo3",
       "code": "LOYALTY10",
       "description": "10% off for premium members",
-      "discount": 0.10,
+      "discount": 0.1,
       "validUntil": "2024-12-31"
     }
   ]
