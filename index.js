@@ -711,15 +711,3 @@ window.spaceData = spaceData;
 
 console.log('Pro tip: Open browser console and type testAllChallenges() to check your work!');
 testAllChallenges();
-
-// console.log(date.getFullYear()); // 2024
-// console.log(date.getMonth());    // 2 (Mars est l'index 2 !)
-// console.log(date.getDate());     // 15 (Le jour du mois)
-// console.log(date.getDay());      // 5 (Jour de la semaine, 0 = Dimanche)
-
-// let myDate = new Date("2024-03-30");
-
-// // Ajouter 5 jours
-// myDate.setDate(myDate.getDate() + 5);
-
-// console.log(myDate.toISOString().split('T')[0]);
